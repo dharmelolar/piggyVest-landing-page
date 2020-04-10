@@ -1,0 +1,106 @@
+body{
+    background-color:#122863;
+    font-family:sans-serif;
+}
+#container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+ #form-div{
+    
+     background-color:#ffffff; 
+    width:28em; 
+      margin:2em 0em 0 0em;  
+      border-radius: 20px 20px 20px 0px; 
+} 
+ [for="name"]{
+    display: block;
+    margin:2em 0 -1em 2em;
+    color:#4a5568;
+}
+[for="email"]{
+    display: block;
+    margin:0em 0 -1em 2em;
+    color:#4a5568;
+}
+[for="phone"]{
+    display: block;
+    margin:0em 0 -1em 2em;
+    color:#4a5568;
+}
+[for="password"]{
+    display: block;
+    margin:0em 0 -1em 2em;
+    color:#4a5568;
+}
+[for="referral"]{
+    display: block;
+    margin:0em 0 -1em 2em;
+    color:#4a5568;
+}
+[for="about-us"]{
+    display: block;
+    margin:0em 0 -1em 2em;
+    color:#4a5568;
+}
+
+
+button{
+    
+    /* line-height: 2em; */
+    background:rgb(8, 62, 158);
+    border:1px;
+    width:27em;
+    height: 4em;
+    color:#ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 10px 10px 10px 0px;
+    margin:0 0 2em 2em; 
+    
+}
+input{
+    
+    line-height: 2em;
+    background:#EDF2F7;
+    border:1px;
+    width:27em;
+    height: 4em;
+    border-radius: 5px;
+    margin:2em;
+    padding: 0px 0px 0px 10px;
+}
+#about-us{
+    
+    line-height: 2em;
+    background:#EDF2F7;
+    border:1px;
+    width:27em;
+    height: 4em;
+    border-radius: 5px;
+    margin:2em;
+    padding: 0px 0px 0px 10px;
+    color:#1a202c;
+    /* font-size: 20px; */
+} 
+h1{
+    text-align: center;
+    color:#083e9e;
+    font-size: 24px;
+    padding-top: 20px;
+}
+p{
+    text-align: center;
+    margin: -1em 0 0 0;
+    font-size: 14px;
+}
+.last-div{
+    display:flex;
+    justify-content: center;
+    margin:5em 0 0 0;
+    color:#ffffff;
+}
+
+
